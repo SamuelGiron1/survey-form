@@ -1,0 +1,71 @@
+body{
+    color:white;
+    width:100%;
+    margin:0;
+    padding:0;
+  
+    background-image:url(https://images.squarespace-cdn.com/content/v1/58a496a1e4fcb5138a2baa51/e2661151-33e5-401f-8b7b-3b9f4ad2b1af/Grab+your+controller+%281%29.png?format=1000w);
+    background-repeat:;
+    bakcground-size:auto 1000%;
+    
+  }
+  .pe{
+    margin:0 auto;
+    text-align:center;
+  }
+  fieldset select{
+    color:white;
+    background-color:#050833;
+    border:none;
+    border-radius:5px;
+  }
+  
+  form{
+    font-size:1.3rem;
+    width:70vw;
+    margin:0 auto;
+    background-color:#00BEC599;
+    background-radio:10px;
+    border-radius:3px;
+  }
+  fieldset p{
+    margin-left:0.8rem;
+  }
+  fieldset{
+    border:none;
+    padding:0 0;
+  }
+  
+  .hi{
+  margin:10px 0 0 0;
+  width:100%;
+  paddig:100px;
+  min-height:2rem;
+  }
+  .center{
+    width:94%;
+    padding:8px;
+    margin:0 0.8rem 0;
+  }
+  label{
+    display:block;
+    margin:0.8rem 0.8rem 0.5rem 0.8rem;
+    
+  }
+  
+  input,textarea{
+    background-color:#050833;
+    border:none;
+    border-radius:5px;
+    color:white;
+  }
+  
+  p{
+    margin-bottom:3px;
+  }
+  
+  .buttom{
+    width:50%;
+    margin:10px 24%;
+    padding:10px;
+  }

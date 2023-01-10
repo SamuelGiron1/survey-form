@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="pe">
+    <h1 id="title">Rocket League Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <form id="survey-form">
+      <fieldset>
+
+        <label for="name" id="name-label">Name<input type="text" id="name" name="name" placeholder="Enter Your Name" class="hi" required></label>
+        
+        <label for="email" id="email-label">Email<input type="email" id="email" name="email" placeholder="Enter Your Email" class="hi" required></label>
+
+        <label for="number" id="number-label">Age<input type="number" id="number" name="number"max="100" min="15" placeholder="Enter Your Age" class="hi" required></label>
+
+      </fieldset>
+
+       <fieldset>
+
+         <p>What describe you as a player?</p>
+         <select class=" center" id="dropdown">
+           <option selected disabled>Select Your Type</option>
+           <option>FreeStyler</option>
+           <option>Competitive Player</option>
+           <option>FreeStyler Coach</option>
+           <option>Competitive Coach</option>
+           
+             
+
+        </select>
+
+        <p>Would you recommend Rocket League to a friend?</p>
+        <label for="difinitely"><input type="radio" id="definitely" name="recommend" value="definitely">Definitely</label>
+        <label for="maybe"><input type="radio" id="maybe" name="recommend" value="maybe">Maybe</label>
+        <label for="not-sure"><input type="radio" id="not-sure" name="recommend" value="not-sure">Not sure</label>
+
+
+        <p>What is your favorite things about rocket league?</p>
+        <select class="center">
+          <option selected disabled>Select an option</option>
+          <option>Mechanics</option>
+          <option>Community</option>
+          <option>Competitive</option>
+          <option>FreeStyle</option>
+          <option>Car design</option>
+        </select>
+      </fieldset>
+
+       <fieldset>
+         <p>What would you like to see improve?</p>
+         <label class="hola"><input type="checkbox" value="mechanics">Mechanics</label>
+         <label><input type="checkbox" value="trading">Trading</label>
+         <label><input type="checkbox" value="matchings">Matchings</label>
+         <label><input type="checkbox" value="tournaments">Tournaments</label>
+         <label><input type="checkbox" value="hit-boxes">Hit Boxes</label>
+
+      </fieldset>
+
+       <fieldset>
+         <label for="comments">Any comments or suggestions?</label>
+         <textarea id="comments" name="coments" class="hi"></textarea>
+      </fieldset>
+    <input type="submit" value="Submit"  id="submit"class="buttom">
+    </form>
+  </body>
+</html>
